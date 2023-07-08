@@ -110,9 +110,9 @@ header {
 }
 
 .grid-hero #hero-title {
-	font-size: 125px;
-	line-height: 120px;
-	font-weight: 800;
+	font-size: 100px;
+	line-height: 90px;
+	font-weight: 900;
 	margin-top: -50px;
 }
 
@@ -269,7 +269,7 @@ header {
 /* About */
 
 #about {
-	height: 1100px;
+	height: 1300px;
 }
 
 #about-box1 {
@@ -559,6 +559,10 @@ header {
 		margin-bottom: 1000px;
 	}
 
+	.grid-hero #hero-title {
+	margin-top: 80px;
+	}
+	
 	/* About */
 	#about {
 		height: 950px;
