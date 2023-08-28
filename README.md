@@ -5,7 +5,7 @@
 Hi there! My name is Uwais and I'm excited to present my personal showcase website. This website serves as my introduction to the world as an aspiring web developer. I'm building it from scratch, using nothing but HTML, CSS, and vanilla JavaScript, all hosted via GitHub Pages. I decided to challenge myself by giving the website a retro style
 and adding multiple boxes, as a way to show my commitment to challenges.
 
-[Check my website here !]('https://uwais-moosa.github.io/showcase-founders-coders/')
+[Check my website here :)](https://uwais-moosa.github.io/showcase-founders-coders/)
 
 ## Project Goals
 
