@@ -2,7 +2,10 @@
 
 ## Introduction
 
-Hi there! My name is Uwais and I'm excited to present my personal showcase website. This website serves as my introduction to the world as an aspiring web developer. My journey from a background in law and property management towards web development has been transformative, and this website embodies that journey. I'm building it from scratch, using nothing but HTML, CSS, and vanilla JavaScript, all hosted via GitHub Pages.
+Hi there! My name is Uwais and I'm excited to present my personal showcase website. This website serves as my introduction to the world as an aspiring web developer. I'm building it from scratch, using nothing but HTML, CSS, and vanilla JavaScript, all hosted via GitHub Pages. I decided to challenge myself by giving the website a retro style
+and adding multiple boxes, as a way to show my commitment to challenges.
+
+[Check my website here !]('https://uwais-moosa.github.io/showcase-founders-coders/')
 
 ## Project Goals
 
@@ -42,14 +45,14 @@ Throughout the process of building this website, I leaned heavily on numerous re
 
 My journey to build this website was filled with interesting challenges. Here are a few of them:
 
--   **Design and Layout**: Figuring out an engaging and effective layout took considerable time. It involved understanding the principles of design and user experience.
+-   **Design and Layout**: Figuring out an engaging and effective layout took considerable time. 
 -   **Responsiveness**: Ensuring that the website looked good and functioned well on all types of devices was challenging, especially considering the variety of screen sizes out there today.
 -   **JavaScript Application**: As a beginner, it was tricky to implement JavaScript to achieve the desired interactivity and functionality.
 -   **Hosting on GitHub Pages**:  Learning to navigate GitHub and understanding the hosting process was a bit of a challenge.
 
 ## More About the Website
 
-My website uses a visually engaging design and includes sections about myself, why I am applying to Founders & Coders, the reasons behind choosing this project, and my journey into tech. It provides detailed insights into my aspirations, background, and achievements.
+My website includes sections about myself, why I am applying to Founders & Coders, the reasons behind choosing this project, and my journey into tech. It provides detailed insights into my aspirations, background, and achievements.
 
 I used a mix of HTML, CSS, and JavaScript to build different components of the website. The JavaScript in my website was used to enhance user experience, adding a level of interactivity to the text content. Each word within specific tags becomes its own span, allowing for more granular control of animations or effects.
 
