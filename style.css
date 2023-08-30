@@ -25,12 +25,14 @@ body {
 	overflow-y: scroll;
 	background-color: #fff;
 	height: calc(100vh - 68px);
+	border: 4px solid #000;
 }
 
 .container {
 	position: relative;
 	border-bottom: 4px solid #000;
 	width: 100%;
+	padding-bottom: 100px;
 }
 
 span:hover {
@@ -38,7 +40,7 @@ span:hover {
 	border-radius: 7px;
 }
 
-/* Header section */
+/* Navbar section */
 
 header {
 	position: fixed;
@@ -48,7 +50,7 @@ header {
 	width: 100%;
 	margin-right: auto;
 	align-items: stretch;
-	border-bottom: 4px solid #000;
+	border: 4px solid #000;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	background-color: #c4c4c4;
@@ -88,10 +90,10 @@ header {
 	color: #ff7d7d;
 }
 
-/* Header section */
+/* Hero section */
 
 #hero {
-	height: 1000px;
+	height: 750px;
 }
 
 .grid-hero {
@@ -110,9 +112,9 @@ header {
 }
 
 .grid-hero #hero-title {
-	font-size: 100px;
-	line-height: 90px;
-	font-weight: 900;
+	font-size: 125px;
+	line-height: 120px;
+	font-weight: 800;
 	margin-top: -50px;
 }
 
@@ -186,7 +188,6 @@ header {
 	height: 350px;
 	object-fit: cover;
 }
-
 /* Cards */
 
 .circle {
@@ -254,20 +255,23 @@ header {
 /* About */
 
 #about {
-	height: 1300px;
+	height: auto;
+	position: relative;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 /* Learning */
 
 #learning {
-	height: 800px;
+	height: auto;
 	margin-top: 60px;
 }
 
 /* Projects */
 
 #projects {
-	height: 600px;
+	height: auto;
 }
 .project-content {
 	text-align: center;
@@ -285,18 +289,26 @@ header {
 
 .card-project-wrap {
 	width: 80%;
+	height: 350px;
 	border-style: solid;
 	border-width: 3px;
 	border-color: #000;
 	border-radius: 10px 10px 0px 0px;
 	background-color: #fff;
 	margin: auto;
+	overflow: hidden;
+	transition: transform 0.2s;
+}
+
+.card-project-wrap:hover {
+	transform: scale(1.05);
 }
 
 .card-project-wrap img {
 	width: 100%;
-	height: auto;
+	height: 200px;
 	object-fit: cover;
+	border-bottom: 3px solid #000;
 }
 
 .window-project-header {
@@ -308,18 +320,22 @@ header {
 }
 
 .project-card-content {
-	margin-top: 20px;
+	margin-top: 10px;
 	padding-left: 8px;
+	display: flex;
+	flex-direction: column;
 }
 
 .project-card-title {
-	display: block;
 	font-size: 22px;
-	line-height: 1.5;
+	line-height: 0.25;
 	text-decoration: none;
 	color: #212529;
 	font-weight: bold;
-	margin-bottom: -20px;
+}
+
+.project-titles-2-and-3 {
+	padding-top: 25px;
 }
 
 .project-card-title:hover {
@@ -348,7 +364,7 @@ header {
 #footer .footer-content h3 {
 	font-size: 24px;
 	font-weight: bold;
-	margin-bottom: -10px;
+	margin-top: 10px;
 }
 
 #footer .contact-details p {
@@ -362,7 +378,6 @@ header {
 #footer .contact-details a:hover {
 	color: #ff7d7d;
 }
-
 
 /* media queries for mobile phones */
 @media (max-width: 600px) {
@@ -430,7 +445,7 @@ header {
 
 	.grid-hero .hero-image {
 		margin-bottom: 30px;
-		padding-bottom: -10px;
+		padding-top: 10px;
 	}
 
 	.hero-button {
@@ -441,17 +456,19 @@ header {
 		margin-right: 10px;
 	}
 
-
 	/* About */
 	#about {
-		padding-left: 5px;
-		padding-right: 5px;
-		height: 3000px;
+		padding-top: 20px;
+		height: auto;
+	}
+
+	.photo-grid {
+		display: none;
 	}
 
 	/* Learning */
 	.learning-content {
-		margin-top: -20px;
+		margin-bottom: 20px;
 	}
 
 	ul {
@@ -461,7 +478,7 @@ header {
 	}
 
 	#learning {
-		height: 2150px;
+		height: auto;
 	}
 
 	/* Projects */
@@ -501,7 +518,6 @@ header {
 		padding: 10px;
 	}
 }
-
 /* media queries for desktop */
 @media (min-width: 1920px) {
 	/* Hero */
@@ -513,10 +529,6 @@ header {
 		margin-bottom: 1000px;
 	}
 
-	.grid-hero #hero-title {
-	margin-top: 80px;
-	}
-	
 	/* About */
 	#about {
 		height: 950px;
